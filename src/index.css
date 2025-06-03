@@ -54,10 +54,10 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-
+@layer components {
 .c-space {
   @apply sm:px-10 px-5 lg:px-15;
-}
+}}
 
 .hover-animation {
   @apply hover:-translate-y-1 duration-200;
