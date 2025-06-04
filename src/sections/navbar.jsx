@@ -37,7 +37,7 @@ const NavBar = () => {
         sm:py-0">
             <a href="/"
             className="text-xl font-bold transition-colors
-            text-neutral-400 hover:text-blue-400">
+            text-[#FFFCEF] hover:text-[#A2A2D0]">
                 James Latanna
             </a>
             <button

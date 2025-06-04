@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Adoria&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
 @import "tailwindcss";
+
 @theme {
   --color-primary: #030412;
   --color-midnight: #06091f;
@@ -48,9 +50,9 @@
   }
 }
 body {
-  background: #030412;
+  background: #FFFCEF; 
   font-family: "Funnel Display", sans-serif;
-  color: white;
+  color: #5C899D;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -85,7 +87,7 @@ body {
 }
 
 .nav-li {
-  @apply text-neutral-400 hover:text-white max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
+  @apply text-[#FFFCEF] hover:text-[#D6CFE1] max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5;
 }
 
 .nav-link {
