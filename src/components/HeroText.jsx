@@ -58,7 +58,8 @@ const HeroText = () => {
                 variants={variants} 
                 initial="hidden"
                 animate="visible"
-                transition={{delay: 1.2}}>Building</motion.p>
+                transition={{delay: 1.2}}>Program pops,
+                    <br /> Programmer panik</motion.p>
                 <motion.div 
                 variants={variants} 
                 initial="hidden"
