@@ -50,9 +50,9 @@
   }
 }
 body {
-  background: #FFFCEF; 
+  background: #030412; 
   font-family: "Funnel Display", sans-serif;
-  color: #5C899D;
+  color: #FFFCEF;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -116,14 +116,18 @@ body {
 }
 
 .grid-default-color {
-  @apply p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl;
+  @apply p-6 bg-gradient-to-b from-[#120F03] to-[#A67800] rounded-2xl;
 }
 
 .grid-special-color {
-  @apply p-6 bg-gradient-to-b from-royal to-lavender rounded-2xl;
+  @apply p-6 bg-gradient-to-b from-[#f2de9b] to-[#202216] rounded-2xl;
+}
+.grid-reverse-color {
+  @apply p-6 bg-gradient-to-tl from-[#4F3900] via-[#7E5A00] to-[#4F3900] rounded-2xl;
 }
 .grid-black-color {
   @apply p-6 bg-gradient-to-tl from-[#3A3A3A] via-[#242424] to-[#3A3A3A] rounded-2xl;
+
 }
 
 /* Contact Section*/

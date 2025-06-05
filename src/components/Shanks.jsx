@@ -23,7 +23,7 @@ export function Shanks(props) {
     }
   }, [actions, animations]);
 
-  const yPosition = useMotionValue(5);
+  const yPosition = useMotionValue(3);
   const ySpring = useSpring(yPosition, {damping: 30});
   useEffect(()=>{
     ySpring.set(-2.55);
