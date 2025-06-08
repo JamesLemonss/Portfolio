@@ -8,8 +8,9 @@ export const myProjects = [
       "Built a face emotion recognition",
       "Inside out characters animations will pop up according to face you make",
       "Fun experience to try out which emotions your face can make",
+      '<a href="https://github.com/JamesLemonss/Face-Emotion-Recognition-FERPlus" target="_blank" class="text-blue-500 hover:underline">Github Backend</a>',
     ],
-    href: "",
+    href: "https://insideoutfer.netlify.app/",
     logo: "",
     image: "/assets/projects/FER.gif",
     tags: [
@@ -205,15 +206,15 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "The Basics",
+    job: "Student Programmer",
+    date: "2022-2024",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Python - Learned programming fundamentals, data structures, and automation using Python for practical problem-solving applications.",
+      "Computer Networking - Studied how devices communicate, network protocols, and internet infrastructure basics.",
+      "Statistics - Covered data analysis, probability, and statistical methods for interpreting patterns and making data-driven decisions.",
+      "AI and Machine Learning - Explored machine learning algorithms, neural networks, and AI applications for real-world problem solving.",
+      "Cybersecurity and Applications - Examined digital security threats, protection strategies, and implementing security measures in computing environments.",
     ],
   },
   {
