@@ -47,7 +47,7 @@ export const myProjects = [
       "Each of those song titles is searched on Spotify, and if found, it's added to a brand-new, private playlist under your Spotify account.",
       "This is a fun way to explore music from any past moment.",
     ],
-    href: "",
+    href: "https://github.com/JamesLemonss/Music-Time-Machine-Spotify",
     logo: "",
     image: "/assets/logos/spotify.png",
     tags: [
@@ -69,7 +69,7 @@ export const myProjects = [
       "Does the danceability affects the popularity of a song?",
       "Manipulating data to prove our hypothesis",
     ],
-    href: "",
+    href: "https://github.com/MassiveTortoise/Colab",
     logo: "",
     image: "/assets/logos/spoty.png",
     tags: [
@@ -94,7 +94,7 @@ export const myProjects = [
       "This model is intended to be used for classifying toxic online classifications.",
       "It shows the confidence percentage of a toxicity in a comment",
     ],
-    href: "",
+    href: "https://github.com/MassiveTortoise/DataScience-AI-FinalProject",
     logo: "",
     image: "/assets/projects/toxic.png",
     tags: [
@@ -114,21 +114,21 @@ export const myProjects = [
     id: 5,
     title: "Bicep Curl detector count",
     description:
-      "Coming soon",
+      "A real-time web-based fitness tracker that uses MediaPipe pose detection to automatically count bicep curls and hammer curls.",
     subDescription: [
-      "Coming soon.",
-      "Coming soon.",
-      "Coming soon.",
-      "Coming soon",
+      "Features a sleek midnight-themed interface with live video feed, angle visualization, and rep counting.",
+      "Built with vanilla JavaScript and HTML5 Canvas for browser-based computer vision.",
+      "Deploy anywhere - works locally or on any web hosting platform like Netlify.",
+      '<a href="https://github.com/JamesLemonss/BicepCurlCounter" target="_blank" class="text-blue-500 hover:underline">Github Backend</a>',
     ],
-    href: "",
+    href: "https://jameslemonss.github.io/BicepCurlCounter/",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/bicepcurls.gif",
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
+        name: "Py",
+        path: "/assets/logos/python-logo-only.svg",
       },
       {
         id: 2,
@@ -142,45 +142,28 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        name: "JS",
+        path: "/assets/logos/javascript.svg",
       },
     ],
   },
   {
     id: 6,
-    title: "gravity simulator",
+    title: "Encryption message",
     description:
-      "Coming soon.C++",
+      "5 military-grade encryption algorithms powered by C++",
     subDescription: [
-      "Coming soon",
-      "Coming soon",
-      "Coming soon",
-      "Coming soon.",
+      "Multi-layered encryption with Caesar, Vigenère, XOR, Polyalphabetic, and advanced layered algorithms.",
+      "Random key generation and Base64 encoding for maximum data protection.",
     ],
-    href: "",
+    href: "https://github.com/JamesLemonss/encryption",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/cpp-encrypt-decrypt.jpg",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "C++",
+        path: "/assets/logos/cplusplus.svg",
       },
     ],
   },
