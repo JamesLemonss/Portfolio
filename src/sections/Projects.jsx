@@ -1,4 +1,4 @@
-import Project from "../components/Project.jsx"
+import Project from "../components/Project"
 import { myProjects } from "../constants"
 import { motion, useMotionValue, useSpring } from "motion/react";
 import { useState } from "react";
