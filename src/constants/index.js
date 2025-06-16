@@ -123,7 +123,7 @@ export const myProjects = [
     ],
     href: "https://jameslemonss.github.io/BicepCurlCounter/",
     logo: "",
-    image: "/assets/projects/bicepcurls.gif",
+    image: "/assets/projects/1010.gif",
     tags: [
       {
         id: 1,
