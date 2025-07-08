@@ -25,9 +25,12 @@ export function Shanks(props) {
 
   const yPosition = useMotionValue(3);
   const ySpring = useSpring(yPosition, {damping: 30});
+  const isMobile = props.scale === 2.0; // Detect mobile by scale prop
+
   useEffect(()=>{
-    ySpring.set(-2.55);
-  },  [ySpring]);
+    const yPos = isMobile ? -2.5 : -2.55; // Mobile: -3.5, Desktop: -2.55
+    ySpring.set(yPos);
+  }, [ySpring, isMobile]);
   useFrame(() =>{
     group.current.position.y = ySpring.get();
   });

@@ -18,14 +18,14 @@ const Hero = () => {
         <ParallaxBackground/>
         <figure 
         className="absolute inset-0" 
-        style={{width: "100vw", height: "100vh"}}>
+        style={{width: "100vw", height: "135vh"}}>
           <Canvas camera={{position: [0, 1, 3] }}>
             <Suspense fallback={<Loader />}>
             <ambientLight intensity={0.5} />
             <directionalLight position={[10, 10, 5]} intensity={1} />
             <Float>
             <Shanks 
-              scale={isMobile ? 2 : undefined} 
+              scale={isMobile ? 2.0 : undefined} 
               position={isMobile ? [0, -2.55, 0] : undefined}
             />
             

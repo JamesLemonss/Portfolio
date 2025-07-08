@@ -10,7 +10,7 @@ export const myProjects = [
       "Fun experience to try out which emotions your face can make",
       '<a href="https://github.com/JamesLemonss/Face-Emotion-Recognition-FERPlus" target="_blank" class="text-blue-500 hover:underline">Github Backend</a>',
     ],
-    href: "https://insideoutfer.netlify.app/",
+    href: "https://insideoutferemotion.netlify.app/",
     logo: "",
     image: "/assets/projects/FER.gif",
     tags: [
